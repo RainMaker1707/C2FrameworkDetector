@@ -1,0 +1,9 @@
+[submodule "Slimper"]
+	path = Slimper
+	url = https://github.com/RainMaker1707/SimpleC2.git
+[submodule "Tests"]
+	path = Tests
+	url = https://github.com/RainMaker1707/EvalProtocol.git
+[submodule "Mimic"]
+	path = Mimic
+	url = https://github.com/RainMaker1707/MimicC2.git
