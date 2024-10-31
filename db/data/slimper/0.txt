@@ -1,0 +1,1314 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       127.0.0.1             127.0.0.1             TCP      74     49828 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925526538 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 49828, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000016       127.0.0.1             127.0.0.1             TCP      74     80 → 49828 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925526538 TSecr=2925526538 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 49828, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000032       127.0.0.1             127.0.0.1             TCP      66     49828 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925526538 TSecr=2925526538
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 49828, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000062       127.0.0.1             127.0.0.1             HTTP     225    GET /assets/bootstrap.js HTTP/1.1 
+
+Frame 4: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 49828, Dst Port: 80, Seq: 1, Ack: 1, Len: 159
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000070       127.0.0.1             127.0.0.1             TCP      66     80 → 49828 [ACK] Seq=1 Ack=160 Win=33152 Len=0 TSval=2925526538 TSecr=2925526538
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 49828, Seq: 1, Ack: 160, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.000424       127.0.0.1             127.0.0.1             TCP      159    80 → 49828 [PSH, ACK] Seq=1 Ack=160 Win=33280 Len=93 TSval=2925526538 TSecr=2925526538 [TCP segment of a reassembled PDU]
+
+Frame 6: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 49828, Seq: 1, Ack: 160, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.000434       127.0.0.1             127.0.0.1             TCP      66     49828 → 80 [ACK] Seq=160 Ack=94 Win=33280 Len=0 TSval=2925526538 TSecr=2925526538
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 49828, Dst Port: 80, Seq: 160, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.000477       127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 8: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 49828, Seq: 94, Ack: 160, Len: 0
+[2 Reassembled TCP Segments (93 bytes): #6(93), #8(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.000711       127.0.0.1             127.0.0.1             TCP      66     49828 → 80 [FIN, ACK] Seq=160 Ack=95 Win=33280 Len=0 TSval=2925526539 TSecr=2925526538
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 49828, Dst Port: 80, Seq: 160, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.000726       127.0.0.1             127.0.0.1             TCP      66     80 → 49828 [ACK] Seq=95 Ack=161 Win=33280 Len=0 TSval=2925526539 TSecr=2925526539
+
+Frame 10: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 49828, Seq: 95, Ack: 161, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 6.557545       127.0.0.1             127.0.0.53            DNS      81     Standard query 0x348a A github.com OPT
+
+Frame 11: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51811, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 6.557559       127.0.0.1             127.0.0.53            DNS      81     Standard query 0x8092 AAAA github.com OPT
+
+Frame 12: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51811, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 7.118323       127.0.0.53            127.0.0.1             DNS      672    Standard query response 0x348a A github.com A 140.82.121.3 NS ns-1707.awsdns-21.co.uk NS ns-520.awsdns-01.net NS ns-421.awsdns-52.com NS dns2.p08.nsone.net NS dns3.p08.nsone.net NS dns4.p08.nsone.net NS ns-1283.awsdns-32.org NS dns1.p08.nsone.net AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5302:800::1 A 198.51.44.8 A 198.51.45.8 A 198.51.44.72 A 198.51.45.72 A 205.251.197.3 A 205.251.198.171 A 205.251.193.165 A 205.251.194.8 OPT
+
+Frame 13: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51811
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 7.118468       127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x8092 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 14: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51811
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 10.685097      127.0.0.1             127.0.0.53            DNS      81     Standard query 0xdcd3 A github.com OPT
+
+Frame 15: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51125, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 10.685112      127.0.0.1             127.0.0.53            DNS      81     Standard query 0x6acb AAAA github.com OPT
+
+Frame 16: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51125, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 10.685504      127.0.0.53            127.0.0.1             DNS      672    Standard query response 0xdcd3 A github.com A 140.82.121.3 NS dns4.p08.nsone.net NS ns-1283.awsdns-32.org NS ns-1707.awsdns-21.co.uk NS dns1.p08.nsone.net NS dns3.p08.nsone.net NS ns-520.awsdns-01.net NS dns2.p08.nsone.net NS ns-421.awsdns-52.com A 198.51.45.72 A 198.51.44.72 AAAA 2600:9000:5302:800::1 A 205.251.193.165 A 198.51.44.8 A 205.251.198.171 A 205.251.197.3 AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 A 205.251.194.8 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 A 198.51.45.8 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2600:9000:5301:a500::1 AAAA 2a00:edc0:6259:7:8::4 OPT
+
+Frame 17: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51125
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 10.710696      127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x6acb AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 18: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51125
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 13.584447      127.0.0.1             127.0.0.53            DNS      92     Standard query 0x7943 AAAA mobile.events.data.microsoft.com
+
+Frame 19: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 5062, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 13.584516      127.0.0.1             127.0.0.53            DNS      92     Standard query 0x7fce A mobile.events.data.microsoft.com
+
+Frame 20: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 57397, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 13.584564      127.0.0.1             127.0.0.53            DNS      92     Standard query 0xa550 HTTPS mobile.events.data.microsoft.com
+
+Frame 21: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 33281, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 13.739731      127.0.0.53            127.0.0.1             DNS      212    Standard query response 0x7fce A mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus15.eastus.cloudapp.azure.com A 20.42.73.28
+
+Frame 22: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 57397
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 13.763140      127.0.0.53            127.0.0.1             DNS      260    Standard query response 0xa550 HTTPS mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdcus02.centralus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 23: 260 bytes on wire (2080 bits), 260 bytes captured (2080 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 33281
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 13.763260      127.0.0.53            127.0.0.1             DNS      260    Standard query response 0x7943 AAAA mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdcus02.centralus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 24: 260 bytes on wire (2080 bits), 260 bytes captured (2080 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 5062
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 51.083621      127.0.0.1             127.0.0.1             TCP      74     47836 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925577621 TSecr=0 WS=128
+
+Frame 25: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 47836, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 51.083647      127.0.0.1             127.0.0.1             TCP      74     80 → 47836 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925577621 TSecr=2925577621 WS=128
+
+Frame 26: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47836, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 51.083704      127.0.0.1             127.0.0.1             TCP      66     47836 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925577622 TSecr=2925577621
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 47836, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 51.083749      127.0.0.1             127.0.0.1             HTTP     220    GET /jscript/app.js HTTP/1.1 
+
+Frame 28: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 47836, Dst Port: 80, Seq: 1, Ack: 1, Len: 154
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 51.083762      127.0.0.1             127.0.0.1             TCP      66     80 → 47836 [ACK] Seq=1 Ack=155 Win=33152 Len=0 TSval=2925577622 TSecr=2925577622
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47836, Seq: 1, Ack: 155, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 51.084115      127.0.0.1             127.0.0.1             TCP      159    80 → 47836 [PSH, ACK] Seq=1 Ack=155 Win=33280 Len=93 TSval=2925577622 TSecr=2925577622 [TCP segment of a reassembled PDU]
+
+Frame 30: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47836, Seq: 1, Ack: 155, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 51.084146      127.0.0.1             127.0.0.1             TCP      66     47836 → 80 [ACK] Seq=155 Ack=94 Win=33280 Len=0 TSval=2925577622 TSecr=2925577622
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 47836, Dst Port: 80, Seq: 155, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 51.084196      127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 32: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47836, Seq: 94, Ack: 155, Len: 0
+[2 Reassembled TCP Segments (93 bytes): #30(93), #32(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 51.084523      127.0.0.1             127.0.0.1             TCP      66     47836 → 80 [FIN, ACK] Seq=155 Ack=95 Win=33280 Len=0 TSval=2925577622 TSecr=2925577622
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 47836, Dst Port: 80, Seq: 155, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 51.084542      127.0.0.1             127.0.0.1             TCP      66     80 → 47836 [ACK] Seq=95 Ack=156 Win=33280 Len=0 TSval=2925577622 TSecr=2925577622
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47836, Seq: 95, Ack: 156, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 66.459787      127.0.0.1             127.0.0.53            DNS      74     Standard query 0xe0cd AAAA api.github.com
+
+Frame 35: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 41150, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 66.459843      127.0.0.1             127.0.0.53            DNS      74     Standard query 0x0bda A api.github.com
+
+Frame 36: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 2942, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 66.459879      127.0.0.1             127.0.0.53            DNS      74     Standard query 0x6363 HTTPS api.github.com
+
+Frame 37: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 21704, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 66.557124      127.0.0.1             127.0.0.53            DNS      81     Standard query 0xab27 A github.com OPT
+
+Frame 38: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 49626, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 66.557139      127.0.0.1             127.0.0.53            DNS      81     Standard query 0x19df AAAA github.com OPT
+
+Frame 39: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 49626, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 66.571226      127.0.0.53            127.0.0.1             DNS      553    Standard query response 0x0bda A api.github.com A 140.82.121.5 NS ns-1283.awsdns-32.org NS ns-421.awsdns-52.com NS ns-1707.awsdns-21.co.uk NS ns-520.awsdns-01.net NS dns1.p08.nsone.net NS dns4.p08.nsone.net NS dns3.p08.nsone.net NS dns2.p08.nsone.net AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5302:800::1 A 198.51.44.8
+
+Frame 40: 553 bytes on wire (4424 bits), 553 bytes captured (4424 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 2942
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 66.571297      127.0.0.53            127.0.0.1             DNS      139    Standard query response 0x6363 HTTPS api.github.com SOA dns1.p08.nsone.net
+
+Frame 41: 139 bytes on wire (1112 bits), 139 bytes captured (1112 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 21704
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 66.571349      127.0.0.53            127.0.0.1             DNS      158    Standard query response 0xe0cd AAAA api.github.com SOA ns-1707.awsdns-21.co.uk
+
+Frame 42: 158 bytes on wire (1264 bits), 158 bytes captured (1264 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41150
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 66.782631      127.0.0.53            127.0.0.1             DNS      672    Standard query response 0xab27 A github.com A 140.82.121.4 NS ns-1283.awsdns-32.org NS dns2.p08.nsone.net NS dns3.p08.nsone.net NS dns1.p08.nsone.net NS ns-1707.awsdns-21.co.uk NS dns4.p08.nsone.net NS ns-421.awsdns-52.com NS ns-520.awsdns-01.net AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5302:800::1 A 198.51.44.8 A 198.51.45.8 A 198.51.44.72 A 198.51.45.72 A 205.251.197.3 A 205.251.198.171 A 205.251.193.165 A 205.251.194.8 OPT
+
+Frame 43: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 49626
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 66.783148      127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x19df AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 44: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 49626
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 69.349879      127.0.0.1             127.0.0.53            DNS      81     Standard query 0x3931 A github.com OPT
+
+Frame 45: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 52658, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 69.349893      127.0.0.1             127.0.0.53            DNS      81     Standard query 0x9a36 AAAA github.com OPT
+
+Frame 46: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 52658, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 69.350239      127.0.0.53            127.0.0.1             DNS      672    Standard query response 0x3931 A github.com A 140.82.121.4 NS dns4.p08.nsone.net NS ns-421.awsdns-52.com NS dns1.p08.nsone.net NS dns3.p08.nsone.net NS dns2.p08.nsone.net NS ns-1283.awsdns-32.org NS ns-1707.awsdns-21.co.uk NS ns-520.awsdns-01.net A 198.51.44.8 AAAA 2600:9000:5302:800::1 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 A 205.251.194.8 A 205.251.197.3 A 198.51.44.72 AAAA 2600:9000:5301:a500::1 A 205.251.198.171 AAAA 2a00:edc0:6259:7:8::2 A 198.51.45.72 AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2620:4d:4000:6259:7:8:0:3 A 205.251.193.165 A 198.51.45.8 OPT
+
+Frame 47: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 52658
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 69.374708      127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x9a36 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 48: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 52658
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 97.428732      127.0.0.1             127.0.0.53            DNS      92     Standard query 0x10bd AAAA mobile.events.data.microsoft.com
+
+Frame 49: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 16758, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 97.428797      127.0.0.1             127.0.0.53            DNS      92     Standard query 0x3e41 A mobile.events.data.microsoft.com
+
+Frame 50: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 33592, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 97.428846      127.0.0.1             127.0.0.53            DNS      92     Standard query 0xe817 HTTPS mobile.events.data.microsoft.com
+
+Frame 51: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 61362, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 97.608301      127.0.0.53            127.0.0.1             DNS      526    Standard query response 0x3e41 A mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus14.eastus.cloudapp.azure.com A 20.42.65.90 NS ns10-201.azure-dns.net NS ns9-201.azure-dns.com NS ns12-201.azure-dns.info NS ns11-201.azure-dns.org AAAA 2603:1061:0:10::c9 AAAA 2620:1ec:8ec:10::c9 AAAA 2a01:111:4000:10::c9 AAAA 2620:1ec:bda:700::c9 A 150.171.10.201 A 150.171.16.201 A 13.107.222.201 A 208.84.5.201
+
+Frame 52: 526 bytes on wire (4208 bits), 526 bytes captured (4208 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 33592
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 97.637684      127.0.0.53            127.0.0.1             DNS      257    Standard query response 0xe817 HTTPS mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus21.eastus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 53: 257 bytes on wire (2056 bits), 257 bytes captured (2056 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 61362
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 97.637876      127.0.0.53            127.0.0.1             DNS      257    Standard query response 0x10bd AAAA mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus14.eastus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 54: 257 bytes on wire (2056 bits), 257 bytes captured (2056 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 16758
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 102.257777     127.0.0.1             127.0.0.1             TCP      74     33036 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925628796 TSecr=0 WS=128
+
+Frame 55: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 102.257802     127.0.0.1             127.0.0.1             TCP      74     80 → 33036 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925628796 TSecr=2925628796 WS=128
+
+Frame 56: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 102.257826     127.0.0.1             127.0.0.1             TCP      66     33036 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925628796 TSecr=2925628796
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 102.257871     127.0.0.1             127.0.0.1             HTTP     230    GET /scripts/bootstrap.min.js HTTP/1.1 
+
+Frame 58: 230 bytes on wire (1840 bits), 230 bytes captured (1840 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 1, Ack: 1, Len: 164
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 102.257883     127.0.0.1             127.0.0.1             TCP      66     80 → 33036 [ACK] Seq=1 Ack=165 Win=33152 Len=0 TSval=2925628796 TSecr=2925628796
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 1, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 102.258339     127.0.0.1             127.0.0.1             TCP      159    80 → 33036 [PSH, ACK] Seq=1 Ack=165 Win=33280 Len=93 TSval=2925628796 TSecr=2925628796 [TCP segment of a reassembled PDU]
+
+Frame 60: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 1, Ack: 165, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 102.258355     127.0.0.1             127.0.0.1             TCP      66     33036 → 80 [ACK] Seq=165 Ack=94 Win=33280 Len=0 TSval=2925628796 TSecr=2925628796
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 102.258395     127.0.0.1             127.0.0.1             TCP      68     80 → 33036 [PSH, ACK] Seq=94 Ack=165 Win=33280 Len=2 TSval=2925628796 TSecr=2925628796 [TCP segment of a reassembled PDU]
+
+Frame 62: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 94, Ack: 165, Len: 2
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 102.258406     127.0.0.1             127.0.0.1             TCP      66     33036 → 80 [ACK] Seq=165 Ack=96 Win=33280 Len=0 TSval=2925628796 TSecr=2925628796
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 165, Ack: 96, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 102.258439     127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 64: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 96, Ack: 165, Len: 0
+[3 Reassembled TCP Segments (95 bytes): #60(93), #62(2), #64(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 102.258941     127.0.0.1             127.0.0.1             TCP      66     33036 → 80 [FIN, ACK] Seq=165 Ack=97 Win=33280 Len=0 TSval=2925628797 TSecr=2925628796
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33036, Dst Port: 80, Seq: 165, Ack: 97, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 102.258962     127.0.0.1             127.0.0.1             TCP      66     80 → 33036 [ACK] Seq=97 Ack=166 Win=33280 Len=0 TSval=2925628797 TSecr=2925628797
+
+Frame 66: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33036, Seq: 97, Ack: 166, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 102.260072     127.0.0.1             127.0.0.1             TCP      74     33048 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925628798 TSecr=0 WS=128
+
+Frame 67: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 102.260087     127.0.0.1             127.0.0.1             TCP      74     80 → 33048 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925628798 TSecr=2925628798 WS=128
+
+Frame 68: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 102.260102     127.0.0.1             127.0.0.1             TCP      66     33048 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925628798 TSecr=2925628798
+
+Frame 69: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 102.260129     127.0.0.1             127.0.0.1             TCP      292    33048 → 80 [PSH, ACK] Seq=1 Ack=1 Win=33280 Len=226 TSval=2925628798 TSecr=2925628798 [TCP segment of a reassembled PDU]
+
+Frame 70: 292 bytes on wire (2336 bits), 292 bytes captured (2336 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 1, Ack: 1, Len: 226
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 102.260138     127.0.0.1             127.0.0.1             TCP      66     80 → 33048 [ACK] Seq=1 Ack=227 Win=33152 Len=0 TSval=2925628798 TSecr=2925628798
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 1, Ack: 227, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 102.260156     127.0.0.1             127.0.0.1             HTTP     189    POST /upload/register HTTP/1.1  (application/x-www-form-urlencoded)
+
+Frame 72: 189 bytes on wire (1512 bits), 189 bytes captured (1512 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 227, Ack: 1, Len: 123
+[2 Reassembled TCP Segments (349 bytes): #70(226), #72(123)]
+Hypertext Transfer Protocol
+HTML Form URL Encoded: application/x-www-form-urlencoded
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 102.260173     127.0.0.1             127.0.0.1             TCP      66     80 → 33048 [ACK] Seq=1 Ack=350 Win=33152 Len=0 TSval=2925628798 TSecr=2925628798
+
+Frame 73: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 1, Ack: 350, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 102.260422     127.0.0.1             127.0.0.1             TCP      159    80 → 33048 [PSH, ACK] Seq=1 Ack=350 Win=33280 Len=93 TSval=2925628798 TSecr=2925628798 [TCP segment of a reassembled PDU]
+
+Frame 74: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 1, Ack: 350, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 102.260445     127.0.0.1             127.0.0.1             TCP      66     33048 → 80 [ACK] Seq=350 Ack=94 Win=33280 Len=0 TSval=2925628798 TSecr=2925628798
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 350, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 102.260778     127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 76: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 94, Ack: 350, Len: 0
+[2 Reassembled TCP Segments (93 bytes): #74(93), #76(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 102.260840     127.0.0.1             127.0.0.1             TCP      66     33048 → 80 [FIN, ACK] Seq=350 Ack=95 Win=33280 Len=0 TSval=2925628799 TSecr=2925628799
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 33048, Dst Port: 80, Seq: 350, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 102.260859     127.0.0.1             127.0.0.1             TCP      66     80 → 33048 [ACK] Seq=95 Ack=351 Win=33280 Len=0 TSval=2925628799 TSecr=2925628799
+
+Frame 78: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33048, Seq: 95, Ack: 351, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 126.553533     127.0.0.1             127.0.0.53            DNS      81     Standard query 0xb19b A github.com OPT
+
+Frame 79: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51131, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 126.553546     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x1593 AAAA github.com OPT
+
+Frame 80: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51131, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 126.789019     127.0.0.53            127.0.0.1             DNS      97     Standard query response 0xb19b A github.com A 140.82.121.3 OPT
+
+Frame 81: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51131
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 126.790278     127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x1593 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 82: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51131
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 128.922946     127.0.0.1             127.0.0.53            DNS      81     Standard query 0xfb5e A github.com OPT
+
+Frame 83: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 47277, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 128.922961     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x5757 AAAA github.com OPT
+
+Frame 84: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 47277, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 128.923087     127.0.0.53            127.0.0.1             DNS      97     Standard query response 0xfb5e A github.com A 140.82.121.3 OPT
+
+Frame 85: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 47277
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 129.247642     127.0.0.53            127.0.0.1             DNS      165    Standard query response 0x5757 AAAA github.com SOA ns-1707.awsdns-21.co.uk OPT
+
+Frame 86: 165 bytes on wire (1320 bits), 165 bytes captured (1320 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 47277
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 153.340172     127.0.0.1             127.0.0.1             TCP      74     51466 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925679878 TSecr=0 WS=128
+
+Frame 87: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51466, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 153.340192     127.0.0.1             127.0.0.1             TCP      74     80 → 51466 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925679878 TSecr=2925679878 WS=128
+
+Frame 88: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 51466, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 153.340213     127.0.0.1             127.0.0.1             TCP      66     51466 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925679878 TSecr=2925679878
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51466, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 153.340249     127.0.0.1             127.0.0.1             HTTP     222    GET /assets/script.js HTTP/1.1 
+
+Frame 90: 222 bytes on wire (1776 bits), 222 bytes captured (1776 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51466, Dst Port: 80, Seq: 1, Ack: 1, Len: 156
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 153.340259     127.0.0.1             127.0.0.1             TCP      66     80 → 51466 [ACK] Seq=1 Ack=157 Win=33152 Len=0 TSval=2925679878 TSecr=2925679878
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 51466, Seq: 1, Ack: 157, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 153.340647     127.0.0.1             127.0.0.1             TCP      159    80 → 51466 [PSH, ACK] Seq=1 Ack=157 Win=33280 Len=93 TSval=2925679878 TSecr=2925679878 [TCP segment of a reassembled PDU]
+
+Frame 92: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 51466, Seq: 1, Ack: 157, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 153.340663     127.0.0.1             127.0.0.1             TCP      66     51466 → 80 [ACK] Seq=157 Ack=94 Win=33280 Len=0 TSval=2925679878 TSecr=2925679878
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51466, Dst Port: 80, Seq: 157, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 153.340716     127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 94: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 51466, Seq: 94, Ack: 157, Len: 0
+[2 Reassembled TCP Segments (93 bytes): #92(93), #94(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 153.341030     127.0.0.1             127.0.0.1             TCP      66     51466 → 80 [FIN, ACK] Seq=157 Ack=95 Win=33280 Len=0 TSval=2925679879 TSecr=2925679879
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51466, Dst Port: 80, Seq: 157, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 153.341049     127.0.0.1             127.0.0.1             TCP      66     80 → 51466 [ACK] Seq=95 Ack=158 Win=33280 Len=0 TSval=2925679879 TSecr=2925679879
+
+Frame 96: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 51466, Seq: 95, Ack: 158, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 173.364383     127.0.0.1             127.0.0.53            DNS      92     Standard query 0xa657 AAAA mobile.events.data.microsoft.com
+
+Frame 97: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 15316, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 173.364458     127.0.0.1             127.0.0.53            DNS      92     Standard query 0x6a96 A mobile.events.data.microsoft.com
+
+Frame 98: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 55759, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 173.364517     127.0.0.1             127.0.0.53            DNS      92     Standard query 0xeeaf HTTPS mobile.events.data.microsoft.com
+
+Frame 99: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 42852, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 173.400471     127.0.0.53            127.0.0.1             DNS      212    Standard query response 0x6a96 A mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdwus01.westus.cloudapp.azure.com A 20.189.173.2
+
+Frame 100: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 55759
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 173.681995     127.0.0.53            127.0.0.1             DNS      256    Standard query response 0xa657 AAAA mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdwus01.westus.cloudapp.azure.com SOA ns1-02.azure-dns.com
+
+Frame 101: 256 bytes on wire (2048 bits), 256 bytes captured (2048 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 15316
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 173.682326     127.0.0.53            127.0.0.1             DNS      257    Standard query response 0xeeaf HTTPS mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus15.eastus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 102: 257 bytes on wire (2056 bits), 257 bytes captured (2056 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 42852
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 186.459347     127.0.0.1             127.0.0.53            DNS      74     Standard query 0x5472 AAAA api.github.com
+
+Frame 103: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 23311, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 186.459414     127.0.0.1             127.0.0.53            DNS      74     Standard query 0x5470 A api.github.com
+
+Frame 104: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 7480, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 186.459458     127.0.0.1             127.0.0.53            DNS      74     Standard query 0x9bfe HTTPS api.github.com
+
+Frame 105: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 26358, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 186.519799     127.0.0.53            127.0.0.1             DNS      139    Standard query response 0x9bfe HTTPS api.github.com SOA dns1.p08.nsone.net
+
+Frame 106: 139 bytes on wire (1112 bits), 139 bytes captured (1112 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 26358
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 186.519875     127.0.0.53            127.0.0.1             DNS      139    Standard query response 0x5472 AAAA api.github.com SOA dns1.p08.nsone.net
+
+Frame 107: 139 bytes on wire (1112 bits), 139 bytes captured (1112 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 23311
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 186.524259     127.0.0.53            127.0.0.1             DNS      553    Standard query response 0x5470 A api.github.com A 140.82.121.6 NS ns-520.awsdns-01.net NS dns1.p08.nsone.net NS ns-1707.awsdns-21.co.uk NS dns2.p08.nsone.net NS ns-1283.awsdns-32.org NS dns4.p08.nsone.net NS dns3.p08.nsone.net NS ns-421.awsdns-52.com AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5302:800::1 A 198.51.44.8
+
+Frame 108: 553 bytes on wire (4424 bits), 553 bytes captured (4424 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 7480
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 186.563888     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x6e79 A github.com OPT
+
+Frame 109: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 36383, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 186.563901     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x7301 AAAA github.com OPT
+
+Frame 110: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 36383, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 186.654641     127.0.0.53            127.0.0.1             DNS      97     Standard query response 0x6e79 A github.com A 140.82.121.3 OPT
+
+Frame 111: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 36383
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 186.655092     127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x7301 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 112: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 36383
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 188.670088     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x3a33 A github.com OPT
+
+Frame 113: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51169, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 188.670103     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x8f2b AAAA github.com OPT
+
+Frame 114: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 51169, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 188.670234     127.0.0.53            127.0.0.1             DNS      97     Standard query response 0x3a33 A github.com A 140.82.121.3 OPT
+
+Frame 115: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51169
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 188.767874     127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x8f2b AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 116: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 51169
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 204.436549     127.0.0.1             127.0.0.1             TCP      74     46696 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925730974 TSecr=0 WS=128
+
+Frame 117: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 204.436569     127.0.0.1             127.0.0.1             TCP      74     80 → 46696 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925730974 TSecr=2925730974 WS=128
+
+Frame 118: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 204.436589     127.0.0.1             127.0.0.1             TCP      66     46696 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925730974 TSecr=2925730974
+
+Frame 119: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 204.436625     127.0.0.1             127.0.0.1             HTTP     225    GET /jscript/backbone.js HTTP/1.1 
+
+Frame 120: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 1, Ack: 1, Len: 159
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 204.436636     127.0.0.1             127.0.0.1             TCP      66     80 → 46696 [ACK] Seq=1 Ack=160 Win=33152 Len=0 TSval=2925730974 TSecr=2925730974
+
+Frame 121: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 1, Ack: 160, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 204.437038     127.0.0.1             127.0.0.1             TCP      159    80 → 46696 [PSH, ACK] Seq=1 Ack=160 Win=33280 Len=93 TSval=2925730975 TSecr=2925730974 [TCP segment of a reassembled PDU]
+
+Frame 122: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 1, Ack: 160, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 204.437053     127.0.0.1             127.0.0.1             TCP      66     46696 → 80 [ACK] Seq=160 Ack=94 Win=33280 Len=0 TSval=2925730975 TSecr=2925730975
+
+Frame 123: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 160, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 204.437088     127.0.0.1             127.0.0.1             TCP      70     80 → 46696 [PSH, ACK] Seq=94 Ack=160 Win=33280 Len=4 TSval=2925730975 TSecr=2925730975 [TCP segment of a reassembled PDU]
+
+Frame 124: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 94, Ack: 160, Len: 4
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 204.437101     127.0.0.1             127.0.0.1             TCP      66     46696 → 80 [ACK] Seq=160 Ack=98 Win=33280 Len=0 TSval=2925730975 TSecr=2925730975
+
+Frame 125: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 160, Ack: 98, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 204.437153     127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 126: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 98, Ack: 160, Len: 0
+[3 Reassembled TCP Segments (97 bytes): #122(93), #124(4), #126(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 204.437445     127.0.0.1             127.0.0.1             TCP      66     46696 → 80 [FIN, ACK] Seq=160 Ack=99 Win=33280 Len=0 TSval=2925730975 TSecr=2925730975
+
+Frame 127: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46696, Dst Port: 80, Seq: 160, Ack: 99, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 204.437467     127.0.0.1             127.0.0.1             TCP      66     80 → 46696 [ACK] Seq=99 Ack=161 Win=33280 Len=0 TSval=2925730975 TSecr=2925730975
+
+Frame 128: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46696, Seq: 99, Ack: 161, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 204.438370     127.0.0.1             127.0.0.1             TCP      74     46702 → 80 [SYN] Seq=0 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925730976 TSecr=0 WS=128
+
+Frame 129: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46702, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 204.438383     127.0.0.1             127.0.0.1             TCP      74     80 → 46702 [SYN, ACK] Seq=0 Ack=1 Win=33280 Len=0 MSS=65495 SACK_PERM=1 TSval=2925730976 TSecr=2925730976 WS=128
+
+Frame 130: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46702, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 204.438398     127.0.0.1             127.0.0.1             TCP      66     46702 → 80 [ACK] Seq=1 Ack=1 Win=33280 Len=0 TSval=2925730976 TSecr=2925730976
+
+Frame 131: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46702, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 204.438426     127.0.0.1             127.0.0.1             HTTP     227    GET /static/background.png HTTP/1.1 
+
+Frame 132: 227 bytes on wire (1816 bits), 227 bytes captured (1816 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46702, Dst Port: 80, Seq: 1, Ack: 1, Len: 161
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 204.438439     127.0.0.1             127.0.0.1             TCP      66     80 → 46702 [ACK] Seq=1 Ack=162 Win=33152 Len=0 TSval=2925730976 TSecr=2925730976
+
+Frame 133: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46702, Seq: 1, Ack: 162, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 204.438651     127.0.0.1             127.0.0.1             TCP      159    80 → 46702 [PSH, ACK] Seq=1 Ack=162 Win=33280 Len=93 TSval=2925730976 TSecr=2925730976 [TCP segment of a reassembled PDU]
+
+Frame 134: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46702, Seq: 1, Ack: 162, Len: 93
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 204.438665     127.0.0.1             127.0.0.1             TCP      66     46702 → 80 [ACK] Seq=162 Ack=94 Win=33280 Len=0 TSval=2925730977 TSecr=2925730976
+
+Frame 135: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46702, Dst Port: 80, Seq: 162, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 204.438700     127.0.0.1             127.0.0.1             HTTP     66     HTTP/1.0 200 OK 
+
+Frame 136: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46702, Seq: 94, Ack: 162, Len: 0
+[2 Reassembled TCP Segments (93 bytes): #134(93), #136(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 204.438974     127.0.0.1             127.0.0.1             TCP      66     46702 → 80 [FIN, ACK] Seq=162 Ack=95 Win=33280 Len=0 TSval=2925730977 TSecr=2925730977
+
+Frame 137: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 46702, Dst Port: 80, Seq: 162, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 204.438992     127.0.0.1             127.0.0.1             TCP      66     80 → 46702 [ACK] Seq=95 Ack=163 Win=33280 Len=0 TSval=2925730977 TSecr=2925730977
+
+Frame 138: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 46702, Seq: 95, Ack: 163, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 246.557525     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x31c2 A github.com OPT
+
+Frame 139: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 55481, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 246.557542     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x74c8 AAAA github.com OPT
+
+Frame 140: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 55481, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 246.905670     127.0.0.53            127.0.0.1             DNS      672    Standard query response 0x31c2 A github.com A 140.82.121.4 NS dns1.p08.nsone.net NS dns4.p08.nsone.net NS dns3.p08.nsone.net NS dns2.p08.nsone.net NS ns-520.awsdns-01.net NS ns-1283.awsdns-32.org NS ns-421.awsdns-52.com NS ns-1707.awsdns-21.co.uk AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2a00:edc0:6259:7:8::2 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::4 AAAA 2600:9000:5305:300::1 AAAA 2600:9000:5306:ab00::1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5302:800::1 A 198.51.44.8 A 198.51.45.8 A 198.51.44.72 A 198.51.45.72 A 205.251.197.3 A 205.251.198.171 A 205.251.193.165 A 205.251.194.8 OPT
+
+Frame 141: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 55481
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 246.905787     127.0.0.53            127.0.0.1             DNS      146    Standard query response 0x74c8 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 142: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 55481
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 249.363065     127.0.0.1             127.0.0.53            DNS      81     Standard query 0x6bad A github.com OPT
+
+Frame 143: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 35626, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 249.363077     127.0.0.1             127.0.0.53            DNS      81     Standard query 0xc1a5 AAAA github.com OPT
+
+Frame 144: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 35626, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 249.363368     127.0.0.53            127.0.0.1             DNS      672    Standard query response 0x6bad A github.com A 140.82.121.4 NS ns-1707.awsdns-21.co.uk NS dns2.p08.nsone.net NS ns-520.awsdns-01.net NS dns4.p08.nsone.net NS ns-1283.awsdns-32.org NS dns3.p08.nsone.net NS ns-421.awsdns-52.com NS dns1.p08.nsone.net A 205.251.193.165 A 205.251.194.8 A 205.251.197.3 AAAA 2620:4d:4000:6259:7:8:0:1 AAAA 2600:9000:5301:a500::1 AAAA 2600:9000:5305:300::1 A 205.251.198.171 A 198.51.45.72 A 198.51.44.72 AAAA 2620:4d:4000:6259:7:8:0:3 AAAA 2a00:edc0:6259:7:8::2 A 198.51.44.8 AAAA 2600:9000:5302:800::1 A 198.51.45.8 AAAA 2600:9000:5306:ab00::1 AAAA 2a00:edc0:6259:7:8::4 OPT
+
+Frame 145: 672 bytes on wire (5376 bits), 672 bytes captured (5376 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 35626
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 249.397011     127.0.0.53            127.0.0.1             DNS      146    Standard query response 0xc1a5 AAAA github.com SOA dns1.p08.nsone.net OPT
+
+Frame 146: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 35626
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 253.548661     127.0.0.1             127.0.0.53            DNS      92     Standard query 0x72c9 AAAA mobile.events.data.microsoft.com
+
+Frame 147: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 19458, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 253.548736     127.0.0.1             127.0.0.53            DNS      92     Standard query 0xa6f6 A mobile.events.data.microsoft.com
+
+Frame 148: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 17404, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 253.548789     127.0.0.1             127.0.0.53            DNS      92     Standard query 0xa369 HTTPS mobile.events.data.microsoft.com
+
+Frame 149: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 58635, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 253.658045     127.0.0.53            127.0.0.1             DNS      212    Standard query response 0xa6f6 A mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdwus12.westus.cloudapp.azure.com A 20.189.173.13
+
+Frame 150: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 17404
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 253.678587     127.0.0.53            127.0.0.1             DNS      257    Standard query response 0x72c9 AAAA mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus14.eastus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 151: 257 bytes on wire (2056 bits), 257 bytes captured (2056 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 19458
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 253.679201     127.0.0.53            127.0.0.1             DNS      257    Standard query response 0xa369 HTTPS mobile.events.data.microsoft.com CNAME mobile.events.data.trafficmanager.net CNAME onedscolprdeus14.eastus.cloudapp.azure.com SOA ns1-201.azure-dns.com
+
+Frame 152: 257 bytes on wire (2056 bits), 257 bytes captured (2056 bits)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 58635
+Domain Name System (response)

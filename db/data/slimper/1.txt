@@ -1,0 +1,1302 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.56.102        192.168.56.101        TCP      66     49686 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 1: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49686, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000526       192.168.56.101        192.168.56.102        TCP      66     80 → 49686 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 2: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49686, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000642       192.168.56.102        192.168.56.101        TCP      54     49686 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 3: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49686, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000707       192.168.56.102        192.168.56.101        HTTP     218    GET /assets/bootstrap.js HTTP/1.1 
+
+Frame 4: 218 bytes on wire (1744 bits), 218 bytes captured (1744 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49686, Dst Port: 80, Seq: 1, Ack: 1, Len: 164
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000883       192.168.56.101        192.168.56.102        TCP      60     80 → 49686 [ACK] Seq=1 Ack=165 Win=32000 Len=0
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49686, Seq: 1, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.001825       192.168.56.101        192.168.56.102        TCP      146    80 → 49686 [PSH, ACK] Seq=1 Ack=165 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 6: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49686, Seq: 1, Ack: 165, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.002024       192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49686, Seq: 93, Ack: 165, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #6(92), #7(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.002039       192.168.56.102        192.168.56.101        TCP      54     49686 → 80 [ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 8: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49686, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.002638       192.168.56.102        192.168.56.101        TCP      54     49686 → 80 [FIN, ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 9: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49686, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.002766       192.168.56.101        192.168.56.102        TCP      60     80 → 49686 [ACK] Seq=94 Ack=166 Win=32000 Len=0
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49686, Seq: 94, Ack: 166, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 5.056611       PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 11: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 5.056625       PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 12: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 16.268862      192.168.56.102        192.168.56.100        DHCP     356    DHCP Request  - Transaction ID 0xba97f170
+
+Frame 13: 356 bytes on wire (2848 bits), 356 bytes captured (2848 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_e0:64:11 (08:00:27:e0:64:11)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.100
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Dynamic Host Configuration Protocol (Request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 16.273568      192.168.56.100        192.168.56.102        DHCP     590    DHCP ACK      - Transaction ID 0xba97f170
+
+Frame 14: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits)
+Ethernet II, Src: PcsCompu_e0:64:11 (08:00:27:e0:64:11), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.100, Dst: 192.168.56.102
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+Dynamic Host Configuration Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 16.276349      fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 15: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 16.276388      192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 16: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 16.280552      fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 17: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 16.280665      192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 18: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 16.280880      fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 19: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 16.280935      192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 20: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 16.281060      fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 21: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 16.281199      192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 22: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 16.281954      192.168.56.102        224.0.0.251           MDNS     80     Standard query 0x0000 ANY WinDev2404Eval.local, "QM" question
+
+Frame 23: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 16.282212      fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     100    Standard query 0x0000 ANY WinDev2404Eval.local, "QM" question
+
+Frame 24: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 16.282484      192.168.56.102        224.0.0.251           MDNS     118    Standard query response 0x0000 AAAA fe80::9c4f:4e27:e09a:8d13 A 192.168.56.102
+
+Frame 25: 118 bytes on wire (944 bits), 118 bytes captured (944 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 16.282531      fe80::9c4f:4e27:e09a:8d13 ff02::1:3             LLMNR    94     Standard query 0x245e ANY WinDev2404Eval
+
+Frame 26: 94 bytes on wire (752 bits), 94 bytes captured (752 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 64528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 16.282635      192.168.56.102        224.0.0.252           LLMNR    74     Standard query 0x245e ANY WinDev2404Eval
+
+Frame 27: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 64528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 16.282735      fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     138    Standard query response 0x0000 AAAA fe80::9c4f:4e27:e09a:8d13 A 192.168.56.102
+
+Frame 28: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 16.732019      192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 29: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 16.732072      fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 30: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 21.238897      PcsCompu_32:b5:a2     PcsCompu_e0:64:11     ARP      42     Who has 192.168.56.100? Tell 192.168.56.102
+
+Frame 31: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_e0:64:11 (08:00:27:e0:64:11)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 21.239101      PcsCompu_e0:64:11     PcsCompu_32:b5:a2     ARP      60     192.168.56.100 is at 08:00:27:e0:64:11
+
+Frame 32: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_e0:64:11 (08:00:27:e0:64:11), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 51.109816      192.168.56.102        192.168.56.101        TCP      66     49687 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49687, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 51.110094      192.168.56.101        192.168.56.102        TCP      66     80 → 49687 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49687, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 51.110164      192.168.56.102        192.168.56.101        TCP      54     49687 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 35: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49687, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 51.110216      192.168.56.102        192.168.56.101        HTTP     213    GET /jscript/app.js HTTP/1.1 
+
+Frame 36: 213 bytes on wire (1704 bits), 213 bytes captured (1704 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49687, Dst Port: 80, Seq: 1, Ack: 1, Len: 159
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 51.110423      192.168.56.101        192.168.56.102        TCP      60     80 → 49687 [ACK] Seq=1 Ack=160 Win=32000 Len=0
+
+Frame 37: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49687, Seq: 1, Ack: 160, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 51.110908      192.168.56.101        192.168.56.102        TCP      146    80 → 49687 [PSH, ACK] Seq=1 Ack=160 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 38: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49687, Seq: 1, Ack: 160, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 51.111008      192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 39: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49687, Seq: 93, Ack: 160, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #38(92), #39(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 51.111017      192.168.56.102        192.168.56.101        TCP      54     49687 → 80 [ACK] Seq=160 Ack=94 Win=262656 Len=0
+
+Frame 40: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49687, Dst Port: 80, Seq: 160, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 51.111527      192.168.56.102        192.168.56.101        TCP      54     49687 → 80 [FIN, ACK] Seq=160 Ack=94 Win=262656 Len=0
+
+Frame 41: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49687, Dst Port: 80, Seq: 160, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 51.111694      192.168.56.101        192.168.56.102        TCP      60     80 → 49687 [ACK] Seq=94 Ack=161 Win=32000 Len=0
+
+Frame 42: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49687, Seq: 94, Ack: 161, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 56.234408      PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 43: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 56.234429      PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 44: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 102.206394     192.168.56.102        192.168.56.101        TCP      66     49688 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49688, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 102.206717     192.168.56.101        192.168.56.102        TCP      66     80 → 49688 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49688, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 102.206772     192.168.56.102        192.168.56.101        TCP      54     49688 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 47: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49688, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 102.206810     192.168.56.102        192.168.56.101        HTTP     223    GET /scripts/bootstrap.min.js HTTP/1.1 
+
+Frame 48: 223 bytes on wire (1784 bits), 223 bytes captured (1784 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49688, Dst Port: 80, Seq: 1, Ack: 1, Len: 169
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 102.207050     192.168.56.101        192.168.56.102        TCP      60     80 → 49688 [ACK] Seq=1 Ack=170 Win=32000 Len=0
+
+Frame 49: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49688, Seq: 1, Ack: 170, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 102.207583     192.168.56.101        192.168.56.102        TCP      146    80 → 49688 [PSH, ACK] Seq=1 Ack=170 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 50: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49688, Seq: 1, Ack: 170, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 102.207693     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 51: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49688, Seq: 93, Ack: 170, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #50(92), #51(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 102.207702     192.168.56.102        192.168.56.101        TCP      54     49688 → 80 [ACK] Seq=170 Ack=94 Win=262656 Len=0
+
+Frame 52: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49688, Dst Port: 80, Seq: 170, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 102.208068     192.168.56.102        192.168.56.101        TCP      54     49688 → 80 [FIN, ACK] Seq=170 Ack=94 Win=262656 Len=0
+
+Frame 53: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49688, Dst Port: 80, Seq: 170, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 102.208278     192.168.56.101        192.168.56.102        TCP      60     80 → 49688 [ACK] Seq=94 Ack=171 Win=32000 Len=0
+
+Frame 54: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49688, Seq: 94, Ack: 171, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 107.404389     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 55: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 107.404405     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 56: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 153.309411     192.168.56.102        192.168.56.101        TCP      66     49689 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49689, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 153.309713     192.168.56.101        192.168.56.102        TCP      66     80 → 49689 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 58: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49689, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 153.309783     192.168.56.102        192.168.56.101        TCP      54     49689 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 59: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49689, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 153.309819     192.168.56.102        192.168.56.101        HTTP     216    GET /scripts/script.js HTTP/1.1 
+
+Frame 60: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49689, Dst Port: 80, Seq: 1, Ack: 1, Len: 162
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 153.310022     192.168.56.101        192.168.56.102        TCP      60     80 → 49689 [ACK] Seq=1 Ack=163 Win=32000 Len=0
+
+Frame 61: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49689, Seq: 1, Ack: 163, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 153.310470     192.168.56.101        192.168.56.102        TCP      146    80 → 49689 [PSH, ACK] Seq=1 Ack=163 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 62: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49689, Seq: 1, Ack: 163, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 153.310541     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 63: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49689, Seq: 93, Ack: 163, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #62(92), #63(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 153.310558     192.168.56.102        192.168.56.101        TCP      54     49689 → 80 [ACK] Seq=163 Ack=94 Win=262656 Len=0
+
+Frame 64: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49689, Dst Port: 80, Seq: 163, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 153.310886     192.168.56.102        192.168.56.101        TCP      54     49689 → 80 [FIN, ACK] Seq=163 Ack=94 Win=262656 Len=0
+
+Frame 65: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49689, Dst Port: 80, Seq: 163, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 153.311062     192.168.56.101        192.168.56.102        TCP      60     80 → 49689 [ACK] Seq=94 Ack=164 Win=32000 Len=0
+
+Frame 66: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49689, Seq: 94, Ack: 164, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 155.550312     fe80::800:27ff:fe00:0 ff02::2               ICMPv6   70     Router Solicitation from 0a:00:27:00:00:00
+
+Frame 67: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: 0a:00:27:00:00:00 (0a:00:27:00:00:00), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::800:27ff:fe00:0, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 158.324308     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 68: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 158.324323     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 69: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 169.602661     192.168.56.102        224.0.0.251           MDNS     77     Standard query 0x0000 PTR _dosvc._tcp.local, "QU" question
+
+Frame 70: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 169.602843     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     97     Standard query 0x0000 PTR _dosvc._tcp.local, "QU" question
+
+Frame 71: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 169.607408     192.168.56.102        224.0.0.251           MDNS     85     Standard query 0x0000 PTR _microsoft_mcc._tcp.local, "QU" question
+
+Frame 72: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 169.607556     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     105    Standard query 0x0000 PTR _microsoft_mcc._tcp.local, "QU" question
+
+Frame 73: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 170.614922     192.168.56.102        224.0.0.251           MDNS     85     Standard query 0x0000 PTR _microsoft_mcc._tcp.local, "QM" question
+
+Frame 74: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 170.615164     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     105    Standard query 0x0000 PTR _microsoft_mcc._tcp.local, "QM" question
+
+Frame 75: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 170.615417     192.168.56.102        224.0.0.251           MDNS     77     Standard query 0x0000 PTR _dosvc._tcp.local, "QM" question
+
+Frame 76: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 170.615623     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     97     Standard query 0x0000 PTR _dosvc._tcp.local, "QM" question
+
+Frame 77: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 204.400141     192.168.56.102        192.168.56.101        TCP      66     49690 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 78: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49690, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 204.400434     192.168.56.101        192.168.56.102        TCP      66     80 → 49690 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 79: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49690, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 204.400491     192.168.56.102        192.168.56.101        TCP      54     49690 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 80: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49690, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 204.400536     192.168.56.102        192.168.56.101        HTTP     215    GET /assets/script.js HTTP/1.1 
+
+Frame 81: 215 bytes on wire (1720 bits), 215 bytes captured (1720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49690, Dst Port: 80, Seq: 1, Ack: 1, Len: 161
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 204.400680     192.168.56.101        192.168.56.102        TCP      60     80 → 49690 [ACK] Seq=1 Ack=162 Win=32000 Len=0
+
+Frame 82: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49690, Seq: 1, Ack: 162, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 204.401208     192.168.56.101        192.168.56.102        TCP      146    80 → 49690 [PSH, ACK] Seq=1 Ack=162 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 83: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49690, Seq: 1, Ack: 162, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 204.401307     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 84: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49690, Seq: 93, Ack: 162, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #83(92), #84(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 204.401315     192.168.56.102        192.168.56.101        TCP      54     49690 → 80 [ACK] Seq=162 Ack=94 Win=262656 Len=0
+
+Frame 85: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49690, Dst Port: 80, Seq: 162, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 204.401572     192.168.56.102        192.168.56.101        TCP      54     49690 → 80 [FIN, ACK] Seq=162 Ack=94 Win=262656 Len=0
+
+Frame 86: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49690, Dst Port: 80, Seq: 162, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 204.401718     192.168.56.101        192.168.56.102        TCP      60     80 → 49690 [ACK] Seq=94 Ack=163 Win=32000 Len=0
+
+Frame 87: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49690, Seq: 94, Ack: 163, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 209.615598     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 88: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 209.615615     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 89: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 216.942084     fe80::800:27ff:fe00:0 ff02::fb              MDNS     107    Standard query 0x0000 PTR _ipp._tcp.local, "QM" question PTR _ipps._tcp.local, "QM" question
+
+Frame 90: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Ethernet II, Src: 0a:00:27:00:00:00 (0a:00:27:00:00:00), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::800:27ff:fe00:0, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 216.942201     192.168.56.1          224.0.0.251           MDNS     87     Standard query 0x0000 PTR _ipp._tcp.local, "QM" question PTR _ipps._tcp.local, "QM" question
+
+Frame 91: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: 0a:00:27:00:00:00 (0a:00:27:00:00:00), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.1, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 255.497419     192.168.56.102        192.168.56.101        TCP      66     49691 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 92: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49691, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 255.497674     192.168.56.101        192.168.56.102        TCP      66     80 → 49691 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49691, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 255.497732     192.168.56.102        192.168.56.101        TCP      54     49691 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 94: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49691, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 255.497776     192.168.56.102        192.168.56.101        HTTP     218    GET /jscript/backbone.js HTTP/1.1 
+
+Frame 95: 218 bytes on wire (1744 bits), 218 bytes captured (1744 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49691, Dst Port: 80, Seq: 1, Ack: 1, Len: 164
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 255.497958     192.168.56.101        192.168.56.102        TCP      60     80 → 49691 [ACK] Seq=1 Ack=165 Win=32000 Len=0
+
+Frame 96: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49691, Seq: 1, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 255.498443     192.168.56.101        192.168.56.102        TCP      146    80 → 49691 [PSH, ACK] Seq=1 Ack=165 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 97: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49691, Seq: 1, Ack: 165, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 255.498443     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 98: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49691, Seq: 93, Ack: 165, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #97(92), #98(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 255.498464     192.168.56.102        192.168.56.101        TCP      54     49691 → 80 [ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 99: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49691, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 255.498815     192.168.56.102        192.168.56.101        TCP      54     49691 → 80 [FIN, ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 100: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49691, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 255.498986     192.168.56.101        192.168.56.102        TCP      60     80 → 49691 [ACK] Seq=94 Ack=166 Win=32000 Len=0
+
+Frame 101: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49691, Seq: 94, Ack: 166, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 260.751183     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 102: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 260.751200     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 103: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 306.095493     192.168.56.102        192.168.56.101        TCP      66     49692 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49692, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 306.095778     192.168.56.101        192.168.56.102        TCP      66     80 → 49692 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 105: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49692, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 306.095835     192.168.56.102        192.168.56.101        TCP      54     49692 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 106: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49692, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 306.095868     192.168.56.102        192.168.56.101        HTTP     217    GET /assets/backbone.js HTTP/1.1 
+
+Frame 107: 217 bytes on wire (1736 bits), 217 bytes captured (1736 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49692, Dst Port: 80, Seq: 1, Ack: 1, Len: 163
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 306.096046     192.168.56.101        192.168.56.102        TCP      60     80 → 49692 [ACK] Seq=1 Ack=164 Win=32000 Len=0
+
+Frame 108: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49692, Seq: 1, Ack: 164, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 306.096601     192.168.56.101        192.168.56.102        TCP      146    80 → 49692 [PSH, ACK] Seq=1 Ack=164 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 109: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49692, Seq: 1, Ack: 164, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 306.096663     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 110: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49692, Seq: 93, Ack: 164, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #109(92), #110(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 306.096679     192.168.56.102        192.168.56.101        TCP      54     49692 → 80 [ACK] Seq=164 Ack=94 Win=262656 Len=0
+
+Frame 111: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49692, Dst Port: 80, Seq: 164, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 306.096968     192.168.56.102        192.168.56.101        TCP      54     49692 → 80 [FIN, ACK] Seq=164 Ack=94 Win=262656 Len=0
+
+Frame 112: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49692, Dst Port: 80, Seq: 164, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 306.097133     192.168.56.101        192.168.56.102        TCP      60     80 → 49692 [ACK] Seq=94 Ack=165 Win=32000 Len=0
+
+Frame 113: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49692, Seq: 94, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 311.342356     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 114: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 311.342376     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 115: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 316.287596     192.168.56.102        192.168.56.100        DHCP     356    DHCP Request  - Transaction ID 0xe1d773a
+
+Frame 116: 356 bytes on wire (2848 bits), 356 bytes captured (2848 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_e0:64:11 (08:00:27:e0:64:11)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.100
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Dynamic Host Configuration Protocol (Request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 316.289240     192.168.56.100        192.168.56.102        DHCP     590    DHCP ACK      - Transaction ID 0xe1d773a
+
+Frame 117: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits)
+Ethernet II, Src: PcsCompu_e0:64:11 (08:00:27:e0:64:11), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.100, Dst: 192.168.56.102
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+Dynamic Host Configuration Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 316.291442     192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 118: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 316.291471     fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 119: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 316.294455     fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 120: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 316.294599     192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 121: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 316.295049     fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 122: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 316.295075     192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 123: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 316.295181     fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 124: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 316.295322     192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 125: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 316.295980     192.168.56.102        224.0.0.251           MDNS     80     Standard query 0x0000 ANY WinDev2404Eval.local, "QM" question
+
+Frame 126: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 316.296184     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     100    Standard query 0x0000 ANY WinDev2404Eval.local, "QM" question
+
+Frame 127: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 316.296391     192.168.56.102        224.0.0.251           MDNS     118    Standard query response 0x0000 AAAA fe80::9c4f:4e27:e09a:8d13 A 192.168.56.102
+
+Frame 128: 118 bytes on wire (944 bits), 118 bytes captured (944 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 316.296529     fe80::9c4f:4e27:e09a:8d13 ff02::1:3             LLMNR    94     Standard query 0x3542 ANY WinDev2404Eval
+
+Frame 129: 94 bytes on wire (752 bits), 94 bytes captured (752 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 61111, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 316.296571     fe80::9c4f:4e27:e09a:8d13 ff02::fb              MDNS     138    Standard query response 0x0000 AAAA fe80::9c4f:4e27:e09a:8d13 A 192.168.56.102
+
+Frame 130: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_fb (33:33:00:00:00:fb)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::fb
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 316.296619     192.168.56.102        224.0.0.252           LLMNR    74     Standard query 0x3542 ANY WinDev2404Eval
+
+Frame 131: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 61111, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 316.733810     192.168.56.102        224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 132: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 316.733847     fe80::9c4f:4e27:e09a:8d13 ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 133: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::9c4f:4e27:e09a:8d13, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 321.240621     PcsCompu_32:b5:a2     PcsCompu_e0:64:11     ARP      42     Who has 192.168.56.100? Tell 192.168.56.102
+
+Frame 134: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_e0:64:11 (08:00:27:e0:64:11)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 321.240825     PcsCompu_e0:64:11     PcsCompu_32:b5:a2     ARP      60     192.168.56.100 is at 08:00:27:e0:64:11
+
+Frame 135: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_e0:64:11 (08:00:27:e0:64:11), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 358.187920     192.168.56.102        192.168.56.101        TCP      66     49693 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 136: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49693, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 358.188269     192.168.56.101        192.168.56.102        TCP      66     80 → 49693 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 137: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49693, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 358.188334     192.168.56.102        192.168.56.101        TCP      54     49693 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 138: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49693, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 358.188374     192.168.56.102        192.168.56.101        HTTP     223    GET /javascripts/bootstrap.js HTTP/1.1 
+
+Frame 139: 223 bytes on wire (1784 bits), 223 bytes captured (1784 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49693, Dst Port: 80, Seq: 1, Ack: 1, Len: 169
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 358.188532     192.168.56.101        192.168.56.102        TCP      60     80 → 49693 [ACK] Seq=1 Ack=170 Win=32000 Len=0
+
+Frame 140: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49693, Seq: 1, Ack: 170, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 358.189084     192.168.56.101        192.168.56.102        TCP      146    80 → 49693 [PSH, ACK] Seq=1 Ack=170 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 141: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49693, Seq: 1, Ack: 170, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 358.189134     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 142: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49693, Seq: 93, Ack: 170, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #141(92), #142(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 358.189142     192.168.56.102        192.168.56.101        TCP      54     49693 → 80 [ACK] Seq=170 Ack=94 Win=262656 Len=0
+
+Frame 143: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49693, Dst Port: 80, Seq: 170, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 358.189461     192.168.56.102        192.168.56.101        TCP      54     49693 → 80 [FIN, ACK] Seq=170 Ack=94 Win=262656 Len=0
+
+Frame 144: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49693, Dst Port: 80, Seq: 170, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 358.189618     192.168.56.101        192.168.56.102        TCP      60     80 → 49693 [ACK] Seq=94 Ack=171 Win=32000 Len=0
+
+Frame 145: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49693, Seq: 94, Ack: 171, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 363.280418     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 146: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 363.280443     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 147: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 409.788460     192.168.56.102        192.168.56.101        TCP      66     49694 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 148: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49694, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 409.788805     192.168.56.101        192.168.56.102        TCP      66     80 → 49694 [SYN, ACK] Seq=0 Ack=1 Win=32120 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 149: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49694, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 409.788864     192.168.56.102        192.168.56.101        TCP      54     49694 → 80 [ACK] Seq=1 Ack=1 Win=262656 Len=0
+
+Frame 150: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49694, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 409.788906     192.168.56.102        192.168.56.101        HTTP     218    GET /assets/bootstrap.js HTTP/1.1 
+
+Frame 151: 218 bytes on wire (1744 bits), 218 bytes captured (1744 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49694, Dst Port: 80, Seq: 1, Ack: 1, Len: 164
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 409.789182     192.168.56.101        192.168.56.102        TCP      60     80 → 49694 [ACK] Seq=1 Ack=165 Win=32000 Len=0
+
+Frame 152: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49694, Seq: 1, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 409.789986     192.168.56.101        192.168.56.102        TCP      146    80 → 49694 [PSH, ACK] Seq=1 Ack=165 Win=32000 Len=92 [TCP segment of a reassembled PDU]
+
+Frame 153: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49694, Seq: 1, Ack: 165, Len: 92
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 409.789986     192.168.56.101        192.168.56.102        HTTP     60     HTTP/1.0 200 OK 
+
+Frame 154: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49694, Seq: 93, Ack: 165, Len: 0
+[2 Reassembled TCP Segments (92 bytes): #153(92), #154(0)]
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 409.790011     192.168.56.102        192.168.56.101        TCP      54     49694 → 80 [ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 155: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49694, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 409.790369     192.168.56.102        192.168.56.101        TCP      54     49694 → 80 [FIN, ACK] Seq=165 Ack=94 Win=262656 Len=0
+
+Frame 156: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Internet Protocol Version 4, Src: 192.168.56.102, Dst: 192.168.56.101
+Transmission Control Protocol, Src Port: 49694, Dst Port: 80, Seq: 165, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 409.790575     192.168.56.101        192.168.56.102        TCP      60     80 → 49694 [ACK] Seq=94 Ack=166 Win=32000 Len=0
+
+Frame 157: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Internet Protocol Version 4, Src: 192.168.56.101, Dst: 192.168.56.102
+Transmission Control Protocol, Src Port: 80, Dst Port: 49694, Seq: 94, Ack: 166, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 414.962547     PcsCompu_d2:26:79     PcsCompu_32:b5:a2     ARP      60     Who has 192.168.56.102? Tell 192.168.56.101
+
+Frame 158: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: PcsCompu_d2:26:79 (08:00:27:d2:26:79), Dst: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 414.962563     PcsCompu_32:b5:a2     PcsCompu_d2:26:79     ARP      42     192.168.56.102 is at 08:00:27:32:b5:a2
+
+Frame 159: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: PcsCompu_32:b5:a2 (08:00:27:32:b5:a2), Dst: PcsCompu_d2:26:79 (08:00:27:d2:26:79)
+Address Resolution Protocol (reply)
