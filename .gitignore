@@ -1,4 +1,5 @@
-*/__pycache__/*
 src/configs.json
+*/__pycache__/
+note.txt
 
 src/scripts/__pycache__/
