@@ -1,0 +1,1 @@
+INFECTED The network trace includes multiple HTTP requests to paths such as /jscript/app.js and a POST request to /upload/register. These behaviors align closely with the Slimper framework's known communication patterns, particularly its use of JavaScript files for signaling and POST requests for data exchange.

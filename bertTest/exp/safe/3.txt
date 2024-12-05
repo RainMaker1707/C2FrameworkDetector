@@ -1,0 +1,1 @@
+This determination is based on the lack of identifiable patterns or indicators linked to Slimper C2 framework activities. The traffic consists of standard network communications, such as ARP, DHCP, HTTP requests, and multicast traffic, without any suspicious anomalies or known malicious behavior.

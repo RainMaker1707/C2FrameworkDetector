@@ -1,0 +1,1 @@
+INFECTED. This analysis is based on the presence of multiple HTTP requests to .js and .jscript files, as well as a POST request to /upload/register, which aligns closely with Slimper’s documented behavior. The observed patterns of communication strongly suggest an infection related to Slimper.
